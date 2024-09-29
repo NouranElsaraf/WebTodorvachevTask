@@ -1,0 +1,39 @@
+{
+  "URL" : "https://testing.todorvachev.com/",
+
+  "RegisterForm" : {
+    "ValidCredentials": {
+      "UserId" : "17999",
+      "Password": "12345678",
+      "Name" : "Nouran",
+      "Address": "99",
+      "Country" : "Canada",
+      "ZIPCode": "12345",
+      "Email": "nour.test1@gmail.com",
+      "About" : "Automation By Selenium WebDriver"
+    },
+    "InvalidCredentials": {
+      "InvalidUserId": {
+        "UserId" : "no number#",
+        "Password": "12345678",
+        "Name" : "Nour",
+        "Address": "99",
+        "Country" : "Canada",
+        "ZIPCode": "12345",
+        "Email": "nour.test1@gmail.com",
+        "About" : "Hello"
+      },
+      "InvalidEmail": {
+        "UserId" : "1899",
+        "Password": "12345678",
+        "Name" : "Nour",
+        "Address": "99",
+        "Country" : "Canada",
+        "ZIPCode": "12345",
+        "Email": "nour.test1&gmail.",
+        "About" : "Selenium WebDriver"
+      }
+    }
+  }
+
+}

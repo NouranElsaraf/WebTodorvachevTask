@@ -1,0 +1,11 @@
+reader\ReadDataFromJson.class
+utils\UtilsTests.class
+data\DataModel.class
+data\ValidCredentials.class
+data\InvalidCredentials.class
+data\InvalidUserId.class
+base\BaseTests.class
+data\InvalidEmail.class
+data\RegistrationForm.class
+registerForm\RegisterTests.class
+utils\ScreenRecorderUtil.class
